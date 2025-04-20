@@ -26,8 +26,8 @@ h1 {
 .formulario { 
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.295);
     text-align: center;
-    width: 60vw;
-    height: 54vh;
+    width: 65vw;
+    height: 73vh;
     padding: 20px;
     border-radius: 8px;
     background-image: linear-gradient( to top, rgb(62, 62, 68), rgb(49, 42, 49));
