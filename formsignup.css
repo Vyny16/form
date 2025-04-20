@@ -1,0 +1,75 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    color: white;
+    background-image:linear-gradient(to bottom,rgb(35, 51, 80), rgb(87, 124, 122));
+    height: 100vh;
+}
+
+
+header h1 {
+    margin-top: 30px;
+    padding: 10px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+h1 { 
+    padding: 10px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.formulario { 
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.295);
+    text-align: center;
+    width: 60vw;
+    height: 54vh;
+    padding: 20px;
+    border-radius: 8px;
+    background-image: linear-gradient( to top, rgb(62, 62, 68), rgb(49, 42, 49));
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.formulario:hover {
+    background-image: linear-gradient(to top,rgb(66, 66, 73),rgb(43, 36, 44));
+    
+}
+.formulario h1 {
+    padding-bottom: 40px;
+}
+
+label {
+    font-size: 24px;
+}
+
+input {
+
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.295);
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(230, 195, 37);
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.295);
+    margin-top: 20px;
+    border: 0px;
+    height: 45px;
+    width: 130px;
+    border-radius:7px;
+    font-size: 20px;
+}
+button:hover {
+    transition: 0.4s;
+    background-color: yellow;
+    border-radius: 10px;
+}
